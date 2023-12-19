@@ -16,6 +16,7 @@ Initially, I wanted to implement the audio-recording on Kotlin, and send 5-secon
 3. Do Unit tests for my api service class. I had already chosen a decorator pattern that would suit Mocking the data service class.
 4. I would pay attention more to my audio buffers and make sure they are error-free
 5. I would ideally not have all my UI widgets on my main.dart, I would have a UI-domain and I would also break my Widgets into smaller widgets rather than using \_build methods like \_buildTranscriptionSection. Having separate Widgets improves rendering performance
+6. I would implement a Foreground service on Kotlin so that my audio-recording would have a higher priority and persist the recording during background activity.
 
 # Example for how to use the 'wav' Dart plugin
 
